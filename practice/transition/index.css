@@ -1,0 +1,14 @@
+.transition-test {
+    background-color: #123ecf;
+    color: white;
+    width: 100px;
+    transition: width 0.3s ease-in;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.transition-test:hover {
+    width: 200px;
+    background-color: #002398;
+}
